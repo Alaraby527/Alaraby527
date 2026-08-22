@@ -32,8 +32,6 @@ AI 产品经理 | 27 届秋招候选人
 
 Dify 落地 4 个应用 + 1 个知识库，8 节点主控 Workflow 串联「数据→周画像→话术→写回飞书」全链路，周复盘 2h→3min；528 张课件 OCR + RAG 问答机器人 15/15 评测通过；24 份问卷推翻初始假设，完成平台重设计。
 
-[实习生工作台](https://dcniaqwtmoca.feishuapp.com/app/app_17cef9xm88c)
-
 `Dify` `RAG` `Workflow` `Community-Operations`
 
 ### [msds-hazard-agent](https://github.com/Alaraby527/msds-hazard-agent) — MSDS 职业危害识别 Agent
