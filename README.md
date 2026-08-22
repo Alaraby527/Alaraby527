@@ -2,7 +2,7 @@
 
 AI 产品经理 | 27 届秋招候选人
 
-专注于把大模型能力落到可评测、可追溯、有人机兜底的真实业务流程中。5 个 AI Agent 项目覆盖财务审核、电商导购、用户增长、职业卫生、求职教育，均包含完整的需求分析、方案设计、评测体系和迭代数据。
+专注于把大模型能力落到可评测、可追溯、有人机兜底的真实业务流程中。6 个 AI Agent 项目覆盖财务审核、电商导购、用户增长、社区运营、职业卫生、求职教育，均包含完整的需求分析、方案设计、评测体系和迭代数据。
 
 ---
 
@@ -27,6 +27,14 @@ AI 产品经理 | 27 届秋招候选人
 [在线 Demo](https://udify.app/chat/6gQzy3besezLctqy) ｜ [运营工作台](https://dcniaqwtmoca.feishuapp.com/app/app_17cmejmhjq2)
 
 `Dify` `Agent` `User-Growth` `Prompt-Engineering`
+
+### [huohuahub-ai-creator-platform](https://github.com/Alaraby527/huohuahub-ai-creator-platform) — 火花工坊 HUB AI 创作者社区运营平台
+
+Dify 落地 4 个应用 + 1 个知识库，8 节点主控 Workflow 串联「数据→周画像→话术→写回飞书」全链路，周复盘 2h→3min；528 张课件 OCR + RAG 问答机器人 15/15 评测通过；24 份问卷推翻初始假设，完成平台重设计。
+
+[实习生工作台](https://dcniaqwtmoca.feishuapp.com/app/app_17cef9xm88c)
+
+`Dify` `RAG` `Workflow` `Community-Operations`
 
 ### [msds-hazard-agent](https://github.com/Alaraby527/msds-hazard-agent) — MSDS 职业危害识别 Agent
 
