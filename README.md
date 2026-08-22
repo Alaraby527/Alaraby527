@@ -1,4 +1,4 @@
-# 杨惠雯 / Alaraby
+# Alaraby
 
 AI 产品经理 | 27 届秋招候选人
 
