@@ -2,21 +2,27 @@
 
 AI 产品经理 | 27 届秋招候选人
 
-专注于把大模型能力落到**可评测、可追溯、有人机兜底**的真实业务流程中。6 个 AI Agent 项目覆盖财务审核、电商导购、用户增长、社区运营、职业卫生、求职教育，均包含完整的需求分析、方案设计、评测体系和迭代数据。
+专注于把大模型能力落到**可评测、可追溯、有人机兜底**的真实业务流程中。作品覆盖真实实习项目重做、个人研究、比赛项目和 MVP，重点展示需求判断、Agent 工作流、评测迭代与风险兜底。
 
 ---
 
-## 🎯 核心 AI 项目（6 个）
+## 👀 建议先看
+
+1. [huohuahub-ai-creator-platform](https://github.com/Alaraby527/huohuahub-ai-creator-platform)：真实实习业务闭环
+2. [tv-buying-copilot](https://github.com/Alaraby527/tv-buying-copilot)：Agent 架构与评测迭代
+3. [invoice-risk-review-agent](https://github.com/Alaraby527/invoice-risk-review-agent)：高风险场景与人工兜底
+
+## 🎯 精选 AI 项目（按作品集优先级）
 
 ### 1. [tv-buying-copilot](https://github.com/Alaraby527/tv-buying-copilot) — 智能电视选购 Copilot
 
-纯 Python 自研 Multi-Agent 电视选购系统（零第三方依赖），Master Router + 5 Worker + Replanner + Compliance 四层架构，25 条评测驱动迭代，通过率 V1.0 72% → V1.1 92%，幻觉从 4 次降到 0 次。
+**个人研究项目**。纯 Python 自研 Multi-Agent 电视选购系统（零第三方依赖），Master Router + 5 Worker + Replanner + Compliance 四层架构，25 条评测驱动迭代，通过率 V1.0 72% → V1.1 92%，幻觉从 4 次降到 0 次。
 
 `Python` `Multi-Agent` `RAG` `Reflection` `零依赖`
 
 ### 2. [invoice-risk-review-agent](https://github.com/Alaraby527/invoice-risk-review-agent) — 企业报销票据风险审核 Agent
 
-可评测、可追溯、有人机兜底的高风险财务工作流。二维码/OCR/视觉模型三路线降级提取，确定性规则查重（批次重复/历史重复/近似异常），未接入税务验真前**自动放行率固定 0%**，所有结论附规则和证据交人工复核。
+**个人研究项目**。可评测、可追溯、有人机兜底的高风险财务工作流。二维码/OCR/视觉模型三路线降级提取，确定性规则查重（批次重复/历史重复/近似异常），未接入税务验真前**自动放行率固定 0%**，所有结论附规则和证据交人工复核。
 
 `Python` `Workflow` `Human-in-the-Loop` `OCR` `高风险场景`
 
@@ -30,7 +36,7 @@ AI 产品经理 | 27 届秋招候选人
 
 ### 4. [lucky-growth-agent](https://github.com/Alaraby527/lucky-growth-agent) — 瑞幸用户增长 Agent
 
-意图驱动的全链路用户增长 Agent，五维信号（时间/天气/位置/行为/社交）感知六大消费意图，「生命周期×意图」24 格策略矩阵自主决策产品/优惠/渠道/文案。V1→V2→V3 三轮迭代：意图识别 68%→89%，人工审核率 85%→15%，单次调用成本降低 44%。2026 AI 先锋未来人才大赛参赛项目。
+**比赛/个人研究项目**。意图驱动的全链路用户增长 Agent，五维信号（时间/天气/位置/行为/社交）感知六大消费意图，「生命周期×意图」24 格策略矩阵自主决策产品/优惠/渠道/文案。V1→V2→V3 三轮迭代：意图识别 68%→89%，人工审核率 85%→15%，单次调用成本降低 44%。2026 AI 先锋未来人才大赛参赛项目。
 
 > Dify DSL 已导出至仓库，可导入任意 Dify 实例自部署运行
 
@@ -38,25 +44,24 @@ AI 产品经理 | 27 届秋招候选人
 
 ### 5. [msds-hazard-agent](https://github.com/Alaraby527/msds-hazard-agent) — MSDS 职业危害识别 Agent
 
-从 MSDS 成分章节提取 CAS 号并匹配职业病危害因素知识表。PDF 文本抽取 + 本地 OCR 降级，CAS 校验位验证保证准确性，高毒目录命中**必须人工复核**。Demo→V1→V2 完整迭代（8/12→11/12），**保留 OCR Bad Case 不造假**（Sn 被误识别为 Sm）。
+**基于真实实习项目重做**。从 MSDS 成分章节提取 CAS 号并匹配职业病危害因素知识表。PDF 文本抽取 + 本地 OCR 降级，CAS 校验位验证保证准确性，高毒目录命中**必须人工复核**。Demo→V1→V2 完整迭代（8/12→11/12），**保留 OCR Bad Case 不造假**（Sn 被误识别为 Sm）。
 
 `Python` `OCR` `Document-AI` `Safety-Critical` `CAS校验`
 
 ### 6. [ai-pm-coach](https://github.com/Alaraby527/ai-pm-coach) — AI 产品经理求职教练
 
-粘贴简历和目标岗位 JD，生成有证据约束的能力差距分析和 7 天行动计划，支持模拟面试四维评分。核心设计：模型**不得编造简历中没有的经历或数据**，无证据的要求标记为「简历未体现」而非「不具备」。
+**个人 MVP**。粘贴简历和目标岗位 JD，生成有证据约束的能力差距分析和 7 天行动计划，支持模拟面试四维评分。核心设计：模型**不得编造简历中没有的经历或数据**，无证据的要求标记为「简历未体现」而非「不具备」。
 
 `JavaScript` `Node.js` `LLM` `JSON-Schema`
 
 ---
 
-## 🛠️ 工具与效率项目
+## 🛠️ 补充项目
 
 | 项目 | 说明 |
 |------|------|
 | [intern-daily-workstation](https://github.com/Alaraby527/intern-daily-workstation) | 【火花工坊子项目】实习生每日 SOP 执行与打卡闭环系统，React+NestJS+飞书多维表格，填表 30min→5min |
 | [qiuzhao-workbench](https://github.com/Alaraby527/qiuzhao-workbench) | 秋招全流程管理 PWA：投递追踪、面试复盘、每日节律、训练中心 |
-| [resume-form-filler](https://github.com/Alaraby527/resume-form-filler) | 网申表单自动填充 Chrome/Edge 扩展，支持多套配置和自定义字段映射 |
 
 ---
 
@@ -65,7 +70,7 @@ AI 产品经理 | 27 届秋招候选人
 | 项目 | 说明 |
 |------|------|
 | [ai-pm-skills](https://github.com/Alaraby527/ai-pm-skills) | AI 产品经理方法论工具包：11 个开箱即用的 Skill，覆盖用户研究、产品设计、数据分析、求职发展 |
-| [ai-pm-methodology-notes](https://github.com/Alaraby527/ai-pm-methodology-notes) | AI 产品经理学习笔记：评测方法论、能力框架、Dify 实操、提示词框架等 18 篇文档 |
+| [ai-pm-methodology-notes](https://github.com/Alaraby527/ai-pm-methodology-notes) | AI 产品经理学习笔记：评测方法论、能力框架、Dify 实操、提示词框架等 15 篇文档 |
 
 ---
 
