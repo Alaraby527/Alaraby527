@@ -18,6 +18,8 @@ AI 产品经理 | 27 届秋招候选人
 
 **个人研究项目**。纯 Python 自研 Multi-Agent 电视选购系统（零第三方依赖），Master Router + 5 Worker + Replanner + Compliance 四层架构，25 条评测驱动迭代，通过率 V1.0 72% → V1.1 92%，幻觉从 4 次降到 0 次。
 
+> 🟢 [在线 Demo](https://alaraby527.github.io/tv-buying-copilot/)
+
 `Python` `Multi-Agent` `RAG` `Reflection` `零依赖`
 
 ### 2. [invoice-risk-review-agent](https://github.com/Alaraby527/invoice-risk-review-agent) — 企业报销票据风险审核 Agent
@@ -46,11 +48,15 @@ AI 产品经理 | 27 届秋招候选人
 
 **基于真实实习项目重做**。从 MSDS 成分章节提取 CAS 号并匹配职业病危害因素知识表。PDF 文本抽取 + 本地 OCR 降级，CAS 校验位验证保证准确性，高毒目录命中**必须人工复核**。Demo→V1→V2 完整迭代（8/12→11/12），**保留 OCR Bad Case 不造假**（Sn 被误识别为 Sm）。
 
+> 🟢 [在线 Demo](https://msds-hazard-agent.streamlit.app/)
+
 `Python` `OCR` `Document-AI` `Safety-Critical` `CAS校验`
 
 ### 6. [ai-pm-coach](https://github.com/Alaraby527/ai-pm-coach) — AI 产品经理求职教练
 
 **个人 MVP**。粘贴简历和目标岗位 JD，生成有证据约束的能力差距分析和 7 天行动计划，支持模拟面试四维评分。核心设计：模型**不得编造简历中没有的经历或数据**，无证据的要求标记为「简历未体现」而非「不具备」。
+
+> 🟢 [在线 Demo](https://ai-pm-coach-omega.vercel.app/)
 
 `JavaScript` `Node.js` `LLM` `JSON-Schema`
 
@@ -69,6 +75,7 @@ AI 产品经理 | 27 届秋招候选人
 
 | 项目 | 说明 |
 |------|------|
+| [aipm-learning-assistant](https://github.com/Alaraby527/aipm-learning-assistant) | AI产品经理系统学习平台：12周学习计划+20道面试题库+15题能力自测+197篇知识地图，纯前端React应用 |
 | [ai-pm-skills](https://github.com/Alaraby527/ai-pm-skills) | AI 产品经理方法论工具包：11 个开箱即用的 Skill，覆盖用户研究、产品设计、数据分析、求职发展 |
 | [ai-pm-methodology-notes](https://github.com/Alaraby527/ai-pm-methodology-notes) | AI 产品经理学习笔记：评测方法论、能力框架、Dify 实操、提示词框架等 15 篇文档 |
 
@@ -77,6 +84,6 @@ AI 产品经理 | 27 届秋招候选人
 ## 技能栈
 
 - **AI 产品**：Agent 设计、RAG、Prompt Engineering、评测体系、人机协同、成本优化
-- **工程实现**：Python、JavaScript/TypeScript、Node.js、Dify、Chrome Extension、PWA
+- **工程实现**：Python、JavaScript/TypeScript、Node.js、React、Dify、PWA
 - **产品方法**：需求分析、PRD 撰写、竞品分析、数据驱动迭代、A/B 测试设计
-- **工具链**：Git、飞书多维表格、Streamlit、Vercel/Render
+- **工具链**：Git、飞书多维表格、Streamlit、Vercel、GitHub Pages
