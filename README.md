@@ -66,8 +66,8 @@ AI 产品经理 | 27 届秋招候选人
 
 | 项目 | 说明 |
 |------|------|
-| [intern-daily-workstation](https://github.com/Alaraby527/intern-daily-workstation) | 【火花工坊子项目】实习生每日 SOP 执行与打卡闭环系统，React+NestJS+飞书多维表格，填表 30min→5min |
-| [qiuzhao-workbench](https://github.com/Alaraby527/qiuzhao-workbench) | 秋招全流程管理 PWA：投递追踪、面试复盘、每日节律、训练中心 |
+| [intern-daily-workstation](https://github.com/Alaraby527/intern-daily-workstation) | 【火花工坊子项目】12 名实习生×5 条业务线的 SOP 执行与打卡闭环，React+NestJS+飞书多维表格，填表 30min→5min。**产品判断：确定性场景用表单不用大模型** |
+| [qiuzhao-workbench](https://github.com/Alaraby527/qiuzhao-workbench) | 秋招全流程管理：岗位匹配评分、投递看板、面试复盘、精力管理、训练中心。**产品判断：AI 只做辅助，核心流程由规则和数据模型驱动** |
 
 ---
 
@@ -75,7 +75,7 @@ AI 产品经理 | 27 届秋招候选人
 
 | 项目 | 说明 |
 |------|------|
-| [aipm-learning-assistant](https://github.com/Alaraby527/aipm-learning-assistant) | AI产品经理系统学习平台：12周学习计划+20道面试题库+15题能力自测+197篇知识地图，纯前端React应用 |
+| [aipm-learning-assistant](https://github.com/Alaraby527/aipm-learning-assistant) | AI产品经理系统学习平台：12周学习计划+20道面试题库+15题五维自测+197篇知识地图，纯前端React应用 |
 | [ai-pm-skills](https://github.com/Alaraby527/ai-pm-skills) | AI 产品经理方法论工具包：11 个开箱即用的 Skill，覆盖用户研究、产品设计、数据分析、求职发展 |
 | [ai-pm-methodology-notes](https://github.com/Alaraby527/ai-pm-methodology-notes) | AI 产品经理学习笔记：评测方法论、能力框架、Dify 实操、提示词框架等 15 篇文档 |
 
