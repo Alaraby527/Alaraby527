@@ -16,11 +16,11 @@ AI 产品经理 | 27 届秋招候选人
 
 ### 1. [tv-buying-copilot](https://github.com/Alaraby527/tv-buying-copilot) — 智能电视选购 Copilot
 
-**个人研究项目**。纯 Python 自研 Multi-Agent 电视选购系统（零第三方依赖），Master Router + 5 Worker + Replanner + Compliance 四层架构，25 条评测驱动迭代，通过率 V1.0 72% → V1.1 92%，幻觉从 4 次降到 0 次。
+**个人研究项目**。纯 Python 自研 Multi-Agent 电视选购系统（零第三方依赖），Master Router + 5 Worker + Replanner + Compliance 四层架构，内置 MCP 工具服务（商品知识库/促销计算/履约查询），短期会话槽位 + 长期用户记忆，25 条评测驱动迭代，通过率 V1.0 72% → V1.1 92%，幻觉从 4 次降到 0 次。
 
 > 🟢 [在线 Demo](https://alaraby527.github.io/tv-buying-copilot/)
 
-`Python` `Multi-Agent` `RAG` `Reflection` `零依赖`
+`Python` `Multi-Agent` `MCP` `Memory` `RAG` `Reflection` `零依赖`
 
 ### 2. [invoice-risk-review-agent](https://github.com/Alaraby527/invoice-risk-review-agent) — 企业报销票据风险审核 Agent
 
@@ -52,14 +52,6 @@ AI 产品经理 | 27 届秋招候选人
 
 `Python` `OCR` `Document-AI` `Safety-Critical` `CAS校验`
 
-### 6. [ai-pm-coach](https://github.com/Alaraby527/ai-pm-coach) — AI 产品经理求职教练
-
-**个人 MVP**。粘贴简历和目标岗位 JD，生成有证据约束的能力差距分析和 7 天行动计划，支持模拟面试四维评分。核心设计：模型**不得编造简历中没有的经历或数据**，无证据的要求标记为「简历未体现」而非「不具备」。
-
-> 🟢 [在线 Demo](https://ai-pm-coach-omega.vercel.app/)
-
-`JavaScript` `Node.js` `LLM` `JSON-Schema`
-
 ---
 
 ## 🛠️ 补充项目
@@ -67,6 +59,7 @@ AI 产品经理 | 27 届秋招候选人
 | 项目 | 说明 |
 |------|------|
 | [intern-daily-workstation](https://github.com/Alaraby527/intern-daily-workstation) | 【火花工坊子项目】12 名实习生×5 条业务线的 SOP 执行与打卡闭环，React+NestJS+飞书多维表格，填表 30min→5min。**产品判断：确定性场景用表单不用大模型** |
+| [ai-pm-coach](https://github.com/Alaraby527/ai-pm-coach) | AI 产品经理求职教练 MVP：简历+JD 差距分析、7 天行动计划、模拟面试四维评分。核心设计：模型不得编造简历中没有的经历。[在线 Demo](https://ai-pm-coach-omega.vercel.app/) |
 | [qiuzhao-workbench](https://github.com/Alaraby527/qiuzhao-workbench) | 秋招全流程管理：岗位匹配评分、投递看板、面试复盘、精力管理、训练中心。**产品判断：AI 只做辅助，核心流程由规则和数据模型驱动** |
 
 ---
@@ -83,7 +76,7 @@ AI 产品经理 | 27 届秋招候选人
 
 ## 技能栈
 
-- **AI 产品**：Agent 设计、RAG、Prompt Engineering、评测体系、人机协同、成本优化
+- **AI 产品**：Agent 设计、MCP 工具集成、RAG、Prompt Engineering、评测体系、人机协同、成本优化
 - **工程实现**：Python、JavaScript/TypeScript、Node.js、React、Dify、PWA
 - **产品方法**：需求分析、PRD 撰写、竞品分析、数据驱动迭代、A/B 测试设计
 - **工具链**：Git、飞书多维表格、Streamlit、Vercel、GitHub Pages
