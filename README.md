@@ -46,7 +46,7 @@ AI 产品经理 | 27 届秋招候选人
 
 ### 5. [msds-hazard-agent](https://github.com/Alaraby527/msds-hazard-agent) — MSDS 职业危害识别 Agent
 
-**基于真实实习项目重做**。从 MSDS 成分章节提取 CAS 号并匹配职业病危害因素知识表。PDF 文本抽取 + 本地 OCR 降级，CAS 校验位验证保证准确性，高毒目录命中**必须人工复核**。Demo→V1→V2 完整迭代（8/12→11/12），**保留 OCR Bad Case 不造假**（Sn 被误识别为 Sm）。
+**基于真实实习项目重做**。从 MSDS 成分章节提取 CAS 号并匹配职业病危害因素知识表。PDF 文本抽取 + 本地 OCR 降级，CAS 校验位验证保证准确性，高毒目录命中**必须人工复核**。Demo→V1→V2 完整迭代（8/12→11/12），V2 剩余 1 个 OCR 误识别 Case（Sn→Sm）。
 
 > 🟢 [在线 Demo](https://msds-hazard-agent.streamlit.app/)
 
