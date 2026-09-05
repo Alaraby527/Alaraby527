@@ -36,7 +36,6 @@
 
 ## 个人品牌与作品集源码
 
-- [Alaraby527.github.io](https://github.com/Alaraby527/Alaraby527.github.io)：个人作品集网站源码
 - [Alaraby527](https://github.com/Alaraby527/Alaraby527)：本主页 README
 
 ## 项目成熟度说明
