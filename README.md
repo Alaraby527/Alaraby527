@@ -2,12 +2,6 @@
 
 关注复杂业务中的 AI 工作流、Agent 可靠性、人机协作与评测迭代。
 
-## 作品集入口
-
-- [在线作品集](https://alaraby527.github.io/)
-- [作品集项目页](https://alaraby527.github.io/portfolio)
-- [全部 GitHub 仓库](https://github.com/Alaraby527)
-
 ## 精选项目
 
 优先推荐以下 5 个项目，分别覆盖真实业务、Agent 工程、垂直场景、风险审核和增长策略。
