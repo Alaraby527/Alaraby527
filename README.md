@@ -4,21 +4,23 @@
 
 ## 精选项目
 
-优先推荐以下 5 个项目，分别覆盖真实业务、Agent 工程、垂直场景、风险审核和增长策略。
+优先推荐以下 5 个项目，分别覆盖真实平台建设、Agent 工程、垂直场景、风险审核和增长策略。
 
 | 项目状态 | 项目 | 主要能力 | 关键证据 |
 |---|---|---|---|
-| 实际投入使用 | [huohuahub-ai-creator-platform](https://github.com/Alaraby527/huohuahub-ai-creator-platform) | AI 创作者社区运营平台、实习生协作、RAG、日报工作流 | 工作台服务 12 名实习生；AI 日报每日推送 |
+| 实际投入使用 | [HuohuaHub｜AI 创作者平台](https://github.com/Alaraby527/huohuahub-ai-creator-platform) | 独立平台建设、AI 产品方向、运营工作流、实习生协作与 RAG | [huohuahub.com](https://huohuahub.com)；我是平台主要搭建者之一；工作台服务 12 名实习生；AI 日报每日推送 |
 | 实习后独立重做 | [tv-buying-copilot](https://github.com/Alaraby527/tv-buying-copilot) | Multi-Agent、RAG、MCP、Memory、Replanner | 25 条模拟评测 72% → 92%；知识库外型号幻觉 4 次 → 0 次 |
 | 实习后独立重做 | [msds-hazard-agent](https://github.com/Alaraby527/msds-hazard-agent) | OCR、知识库匹配、CAS 校验、证据链 | 黄金集 8/12 → 11/12；保留人工复核 |
 | 独立原型 | [invoice-risk-review-agent](https://github.com/Alaraby527/invoice-risk-review-agent) | 发票审核、二维码/OCR、规则回归、风险兜底 | 公开 OCR 短板、评测集和端到端结果 |
 | 模拟评测 | [lucky-growth-agent](https://github.com/Alaraby527/lucky-growth-agent) | 用户画像、意图识别、增长策略 Agent | 三轮策略迭代与评测报告 |
 
+> 说明：HuohuaHub 是一个独立平台。下面列出的实习生工作台是 HuohuaHub 的脱敏子模块演示，不是另一个无关的独立业务。
+
 ## 产品原型与工作台
 
 | 项目 | 用途 |
 |---|---|
-| [intern-daily-workstation](https://github.com/Alaraby527/intern-daily-workstation) | 实习生任务、每日打卡、附件提交和 Mentor 验收 |
+| [HuohuaHub 子模块｜实习生每日工作台（脱敏演示）](https://github.com/Alaraby527/intern-daily-workstation) | HuohuaHub 平台中的实习生任务、每日打卡、附件提交和 Mentor 验收 |
 | [ai-pm-coach](https://github.com/Alaraby527/ai-pm-coach) | 简历与 JD 分析、能力差距、7 天计划和模拟面试 |
 | [aipm-learning-assistant](https://github.com/Alaraby527/aipm-learning-assistant) | AI PM 知识地图、学习计划、面试题库和自测 |
 | [qiuzhao-workbench](https://github.com/Alaraby527/qiuzhao-workbench) | 秋招投递、面试复盘和训练管理，已归档 |
